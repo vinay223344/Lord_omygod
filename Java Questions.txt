@@ -1,0 +1,451 @@
+Java Questions
+
+What is transient?
+what is volatile in java?
+Why is String immutable in Java?
+Difference between == and equals()?
+How HashMap works internally?
+Difference between HashMap and ConcurrentHashMap?
+Fail-fast vs Fail-safe iterator?
+Why multiple inheritance is not supported in Java?
+Difference between final, finally, finalize()?
+Deep copy vs Shallow copy?
+Difference between Comparable and Comparator?
+Can we override private/static/final methods?
+Difference between sleep() and wait()?
+What is deadlock in Java?
+synchronized method vs synchronized block?
+Difference between Runnable and Callable?
+What is volatile keyword?
+Difference between JVM, JRE, and JDK?
+Heap memory vs Stack memory?
+What causes memory leak in Java?
+What is ClassLoader in Java?
+Difference between Exception and Error?
+Why should HashMap key be immutable?
+Difference between ArrayList and LinkedList?
+Why Set does not allow duplicates?
+Difference between Iterator and ListIterator?
+What is Functional Interface?
+What is Lambda Expression?
+Advantages of Stream API?
+Difference between map() and flatMap()?
+Purpose of Optional class?
+Why HashMap is not synchronized?
+Can constructor be overridden?
+Can we make array volatile?
+Why main() method is static?
+What happens if hashcode is same?
+Explain marker interface.
+Reverse a String in Java.
+Find duplicate characters in String.
+Fibonacci series program.
+Palindrome program in Java.
+Explain Singleton class implementation.
+
+
+
+
+
+
+What is a REST API?
+What are the main principles of REST architecture?
+What is the difference between REST and SOAP?
+What are HTTP methods used in REST APIs?
+Explain GET, POST, PUT, DELETE methods.
+What is the difference between PUT and PATCH?
+What is an API endpoint?
+What is statelessness in REST?
+What are HTTP status codes?
+What is the use of 200, 201, 400, 401, 404, and 500 status codes?
+What is JSON and why is it used in REST APIs?
+What is the difference between XML and JSON?
+What is API versioning?
+What is authentication in REST APIs?
+What is the difference between Basic Auth and OAuth?
+What are headers in REST API requests?
+What is idempotency in REST APIs?
+What is the difference between path parameters and query parameters?
+What are CRUD operations in REST APIs?
+How do you test REST APIs?
+
+
+
+
+
+What is Spring Boot?
+What are the advantages of Spring Boot?
+Difference between Spring and Spring Boot?
+What is @SpringBootApplication annotation?
+What is auto-configuration in Spring Boot?
+What is dependency injection?
+What is IOC container?
+What is a Spring Bean?
+What is @Component annotation?
+Difference between @Controller and @RestController?
+What is @Autowired annotation?
+What is Spring Boot Starter?
+What is embedded Tomcat server?
+How do you change server port in Spring Boot?
+What is application.properties file?
+Difference between application.properties and application.yml?
+What is Spring Data JPA?
+What is @Entity annotation?
+What is JpaRepository?
+What is Hibernate?
+What is REST API in Spring Boot?
+What is @GetMapping annotation?
+What is @PostMapping annotation?
+What is @RequestBody annotation?
+What is @PathVariable annotation?
+What is exception handling in Spring Boot?
+What is Spring Security?
+What is JWT authentication?
+What is Spring Boot Actuator?
+How do you deploy a Spring Boot application?
+
+
+
+
+
+
+
+
+    JAVA 8
+ 
+ 
+1) Lambda Expressions & Method References
+Lambda syntax: (args) -> expression / (args) -> { statements }
+Target typing (type inference based on context)
+Effectively final variables in lambdas
+Method references:
+Class::staticMethod
+instance::instanceMethod
+Class::instanceMethod (unbound)
+Class::new (constructor reference)
+Functional interfaces (single abstract method)
+2) Streams API (java.util.stream)
+Stream creation: Collection.stream(), Stream.of, Arrays.stream, Files.lines
+Intermediate ops (lazy): map, filter, flatMap, distinct, sorted, peek, limit, skip
+Terminal ops: forEach, collect, reduce, findFirst, findAny, anyMatch, allMatch, noneMatch, count.
+3) Optional (java.util.Optional)
+Creation: of, ofNullable, empty
+Access: isPresent, ifPresent, orElse, orElseGet, orElseThrow
+Transformation: map, flatMap, filter
+Best practices: Avoid as fields/params; return type only. Prefer orElseGet for expensive defaults.
+4) Date & Time API (java.time)
+Core types: LocalDate, LocalTime, LocalDateTime, ZonedDateTime, OffsetDateTime, Instant
+Durations & periods: Duration, Period.
+
+5)  Functional Interface:
+ 
+ A Functional Interface is an interface that contains exactly one abstract method.
+💡 It can contain:
+1 abstract method ✔
+Any number of default methods ✔
+Any number of static methods ✔
+Methods from java.lang.Object ✔
+📌 Marked with @FunctionalInterface (optional but recommended).
+ 
+Because Java 8 introduced lambda expressions, and lambdas need a target type.
+Functional interfaces provide that target.
+ 
+Everyone
+Sivasamy, Jayakumar (Contractor)
+29-03-2026 08:42 PM
+                                                               Spring Core
+ 
+1. What is the Spring IoC Container?
+Concept:
+A container that manages the lifecycle of objects (beans) and performs dependency injection.
+ 
+2. What is Dependency Injection? Types?
+Three types:
+Constructor Injection 💯 preferred
+Setter Injection
+Field Injection ❌ not recommended
+3. What are Bean Scopes in Spring?
+Common scopes:
+singleton (default)
+prototype
+request
+session
+application
+4. How does Spring manage Bean Life Cycle?
+Stages:
+Instantiation
+Dependency Injection
+Post-processors (BeanPostProcessor)
+Initialization (@PostConstruct, InitializingBean)
+Ready for use
+Destruction (@PreDestroy, DisposableBean
+
+5. Difference between @Component, @Service, @Repository, @Controller
+ 
+Annotation	Purpose
+@Component	Generic bean
+@Service	Business logic
+@Repository	DAO + exception translation
+@Controller / @RestController	Web layer
+ 
+6. What is @Configuration and @Bean?
+@Configuration → marks a class as configuration class.
+@Bean → registers returned object as Spring bean.
+7. What is the difference between Inversion of Control and Dependency Injection?
+IoC → Framework controls object creation
+DI → Injecting dependencies into objects.
+ 
+8. @ComponentScan ?
+@ComponentScan → automatically picks up classes annotated with @Component, @Service, etc.
+Sivasamy, Jayakumar (Contractor)
+29-03-2026 08:42 PM
+Spring Core Annotations:
+ 
+@SpringBootApplication
+@SpringBootTest
+@EnableAutoConfiguration
+@ComponentScan
+@Configuration
+@Bean
+@Component
+@Service
+@Repository
+ 
+Controller Based Annotations
+ 
+@Controller
+@RestController
+@RequestMapping
+@CrossOrigin
+@GetMapping,@PostMapping,@PutMapping,@DeleteMapping
+@RequestBody
+@RequestParam
+@RequestHeader
+@PathVarible
+@ResponseBody
+ 
+Entity Based Annotations
+ 
+@Entity
+@Table
+@Collections
+@Id
+@GeneratedValue
+@Column
+@Value
+@Transient
+@JoinColumn, @JoinTable
+@OneToOne, @OneToMany, @ManyToOne, @ManyToMany
+@Query, @NamedQuery
+ 
+Validation Annotations
+ 
+@Valid
+@NotNull, @Null
+@Size, @Min, @Max
+@Email, @Pattern
+@Positive, @Negative, @PositiveOrZero, @NegativeOrZero
+ 
+ 
+Sivasamy, Jayakumar (Contractor)
+29-03-2026 08:43 PM
+git init
+git remote add origin <repo url>
+git config
+git checkout 
+git branch
+git status
+git diff
+git add
+git commit 
+git push
+git stash
+git cherry-pick
+git reset
+git clone
+git log
+ 
+ 
+Usual order for uploading a project to git is
+ 
+git init - for initializing git into your project
+git remote add origin - to link repository
+git status - to see the changed files
+git diff - to see  changes with respect to line
+git add - to add files to staging
+git status - to check the files added
+git commit - to commit to staging
+git pull - getting latest changes into your repo 
+git push - to push to remote 
+Sivasamy, Jayakumar (Contractor)
+29-03-2026 08:43 PM
+                                GIT
+ 
+What is the difference between git fetch and git pull?
+How do you resolve merge conflicts?
+What is .gitignore and how do you use it?
+How do you create and switch branches in Git?
+How do you cherry-pick a commit?
+How do you undo the last commit?
+What’s the difference between git reset and git revert?
+What is Git stash and when do you use it?
+What are the commands you use followed to push code to git?
+ 
+Sivasamy, Jayakumar (Contractor)
+29-03-2026 08:43 PM
+                                                     Spring Boot
+ 
+1. What is Spring Boot? Why do we use it?
+ 
+Spring Boot is built on top of Spring Core and provides:
+ 
+Auto‑configuration
+Embedded servers (Tomcat/Jetty/Netty)
+Starter dependencies
+ 
+2. What is Auto‑Configuration in Spring Boot?
+Spring Boot automatically configures beans based on classpath and properties.
+Example:
+If spring-boot-starter-web is present, it auto-configures:
+ 
+DispatcherServlet
+MessageConverters
+Default error handling
+Jackson JSON converter
+ 
+3. What is @SpringBootApplication composed of?
+It is a combination of:
+ 
+@Configuration
+@EnableAutoConfiguration
+@ComponentScan
+ 
+4. What is the role of application.properties / application.yml?
+Used for external configuration:
+ 
+Server port
+Database config
+Logging
+Profiles
+Custom properties
+ 
+5. How does Spring Boot handle exceptions?
+Default /error endpoint
+Custom global handler using:
+ 
+
+
+@ControllerAdvice
+public class GlobalExceptionHandler {
+   @ExceptionHandler(Exception.class)
+   public ResponseEntity<?> handle(Exception e) { ... }
+}
+ 
+6. What is @RestController?
+It is shorthand for:
+ 
+@Controller
+@ResponseBody
+ 
+Used for REST APIs.
+ 
+7. What is CommandLineRunner and ApplicationRunner?
+Used to run logic after application startup.
+Sivasamy, Jayakumar (Contractor)
+29-03-2026 08:44 PM
+                                                                            Spring JPA
+ 
+ 
+1) What is Spring Data JPA? How is it different from JPA/Hibernate?
+JPA: Specification (API contracts).
+Hibernate: JPA implementation (provider).
+Spring Data JPA: Adds repository abstraction (CRUD, query derivation, paging, auditing), reduces boilerplate.
+2) Repository types and when to use them
+CrudRepository<T, ID> – basic CRUD
+JpaRepository<T, ID> – CRUD + paging + batch methods
+PagingAndSortingRepository<T, ID> – adds pagination & sorting
+Example:
+ 
+
+
+public interface UserRepository extends JpaRepository<User, Long> {
+    Optional<User> findByEmail(String email);
+    List<User> findTop3ByStatusOrderByCreatedAtDesc(Status status);
+}
+3) Query derivation – method name rules
+findBy, readBy, getBy
+Combinators: And, Or, Between, LessThan, Containing, In, True, False, IsNull, IgnoreCase
+Sorting: OrderBy<FieldName>Asc/Desc
+🔹 @Query, Native Queries, and SpEL
+4) When to use @Query?
+Complex joins, partial selects (projections), performance tuning.
+ 
+
+
+@Query("select u from User u join fetch u.roles where u.email = :email")
+Optional<User> findWithRolesByEmail(@Param("email") String email);
+ 
+5) Native queries & updates
+ 
+
+
+@Modifying
+@Query(value = "update users set status = :status where last_login < :cutoff", nativeQuery = true)
+int bulkDeactivate(@Param("status") String status, @Param("cutoff") Instant cutoff);
+ 
+6) SpEL in queries (dynamic parts)
+ 
+ 
+
+
+@Query("select u from User u where u.tenantId = :#{#auth.tenantId}")
+List<User> findAllByTenant(@Param("auth") AuthContext auth);
+ 
+🔹 Pagination, Sorting, and Slices
+ 
+7) How do you implement pagination?
+ 
+
+
+Page<User> page = repo.findByStatus(Status.ACTIVE, PageRequest.of(0, 20, Sort.by("createdAt").descending()));
+ 
+Page = results + total count (extra query)
+Slice = results + hasNext (no count query) → more efficient for infinite scrolling
+List = just results
+ 
+Sivasamy, Jayakumar (Contractor)
+29-03-2026 08:45 PM
+                                                 Spring Security
+Authentication vs Authorization
+Authentication → Who are you? (verify identity)
+Authorization → What can you do? (access control).
+Security Context
+Holds the current Authentication (principal + authorities). Propagated via SecurityContextHolder.
+Filter Chain
+A chain of servlet filters handling authentication/authorization. Ordered, stateless by default with JWT/sessionless APIs.
+Where to configure now?
+WebSecurityConfigurerAdapter is deprecated.
+Use SecurityFilterChain bean and HttpSecurity DSL.
+What is PasswordEncoder and why BCrypt?
+PasswordEncoder hashes and verifies passwords. BCrypt is recommended because it’s adaptive, salted, and resists brute-force attacks.
+What does UsernamePasswordAuthenticationFilter do?
+Processes username/password login (by default /login), creates an Authentication token, and delegates to AuthenticationManager.
+ What is OncePerRequestFilter?
+A base class for custom filters that guarantees a single execution per request within a single request dispatch.
+Difference between hasRole() and hasAuthority()?
+hasRole("ADMIN") expects authority ROLE_ADMIN.
+hasAuthority("ADMIN") matches exact authority string.
+What is the ROLE_ prefix?
+Spring treats roles as authorities with ROLE_ prefix. hasRole("X") internally checks for ROLE_X.
+.permitAll() vs .authenticated()?
+permitAll() → accessible without authentication.
+authenticated() → requires a logged-in user.
+Token expiration vs refresh token?
+Access token: short-lived; used on each request. 
+Refresh token: long-lived; used to obtain new access tokens without re-login.
+Difference between 401 vs 403?
+401 Unauthorized: Not authenticated or token invalid/missing.
+403 Forbidden: Authenticated but not authorized.
+Difference between CORS and CSRF?
+CORS: Browser cross-origin policy; server decides which origins are allowed.
+CSRF: Attack exploiting implicit authentication (cookies). CORS ≠ security; it’s a browser restriction.
