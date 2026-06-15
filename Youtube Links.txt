@@ -1,0 +1,147 @@
+Youtube Links
+
+Git
+
+https://youtu.be/vwj89i2FmG0?si=3X_VW08U5paRguvv - Telusko
+https://youtu.be/apGV9Kg7ics?si=jKjQFhXUWvKj1YGS - Kunal
+
+JAVA 8
+
+https://youtu.be/ePJrt5-G8eM?si=UYv7SiGKkkTUiSkj - JAVA TECHIE
+https://youtu.be/UfJ0lCH7FMM?si=2FjhZa5iqMH0oTum - JAVA GUIDES
+
+STREAMS
+
+https://youtu.be/-RHvF37el-A?si=_wvxBzO0mliy47Kv - JAVA TECHIE
+https://youtu.be/2yceSCdy5jI?si=li6bTcnAwA7lcZ6S - CODE.IO
+
+JAVA COLLECTIONS
+
+https://youtu.be/GdAon80-0KA?si=JFkBTm6i5PTMU3oO - JAVA GUIDES
+
+JAVA ARCHITECTURE
+
+https://youtu.be/Ms7KDg_TVcI?si=qUdQimX56V9wNOjU - CODESNIPPET
+https://youtu.be/qp56fAXMoTg?si=9wFFGzMeEpmzXOf8 - CODE THANISH
+
+HIBERNATE
+
+https://youtu.be/qF20cAHKrXA?si=gVqpD6prOjPXM6p7 - TELUSKO
+https://youtu.be/JR7-EdxDSf0?si=iHMa-MwWstIn7sgK - TELUSKO
+
+THREADS
+
+https://youtu.be/5F_KB16qR2Q?si=qKcCmr-QBKcp89KV - ARUN MEHRA
+https://www.youtube.com/live/y48TwMSV4Cc?si=YbzDXpvV7TptFyES - NARESH I TECHNOLOGIES
+https://www.youtube.com/live/vSMB3zeoQPM?si=Ulm3tZD3r2NLc44R - ASHOK IT
+https://youtu.be/mTGdtC9f4EU?si=CR3JfU6-BMnwjtLv - JACOB JENKOV
+https://youtu.be/t3Je61rPvj4?si=I-rE0vfnY69dNpFA - LOGIC FIRST TAMIL
+
+FACTORY DESIGN
+
+https://youtu.be/C_oPLDaSy-8?si=kkfDOv6B50l_x0n8 - EDUREKA
+https://youtu.be/OuNOyFg942M?si=Lqnyth3M155lTbdy - CONCEPT & CODING - BY SHRAYANSH
+https://youtu.be/UAMuzJNucEE?si=MDOTXtRSrQmmG1MU - DEVARAJ UMAPATHI
+https://youtu.be/tDxnyop48mY?si=3JlEgB10woQrALE_ - TELUSKO
+https://youtu.be/EdFq_JIThqM?si=7A8r_Kmu7ED2mDJY - GEEKIFIC
+https://youtu.be/JWkZM3crLi4?si=rd1jj-FSD311_zbD - DEVARAJ UMAPATHI
+https://youtu.be/_SHPAU92Ztk?si=FTeeR8XKpanuHZac - DEVARAJ UMAPATHI
+https://youtu.be/XBnRL4MtR2U?si=V79xw2NkUV4sF8En - DEVARAJ UMAPATHI
+https://youtu.be/WxGtmIBZszk?si=HREdSGN_Eww5CvNk - CONCEPT & CODING - BY SHRAYANSH
+https://youtu.be/Jpmp4GY8r3Q?si=i-keaYEDbOtldMQA - CODER ARMY
+https://youtu.be/vap9ACtc_tU?si=DOTpqeQ7FfYE1EI6 - DAILY CODE BUFFER
+
+REST API
+
+https://youtu.be/BZi44GOD8kY?si=svSLGEOOj-pgtRdV - TELUSKO
+
+LOGGING AND SWAGGER
+
+https://youtu.be/2IVyyo3DA7U?si=OzxZl9hDEdM7EfE_ - TELUSKO
+https://youtu.be/vHoHUo6gRQE?si=O5EU6bBakhSsNqbp - JAVA TECHIE
+https://youtu.be/IxKL0N7juMQ?si=nZTxAavfAG3-i3kp - CODE ULAGAM (SWAGGER)
+https://youtu.be/QKLrXAO6DDY?si=N1KOn7CPhH33n99E - SHRISTI TECH ACADEMY
+https://youtu.be/gduKpLW_vdY?si=zjULth5F42Ihw5yg - JAVA BRAINS
+
+JAVA PLAYLIST
+
+https://youtu.be/bm0OyhwFDuY?si=3Evb1UgMk7XsWl-H - TELUSKO
+
+AUDIT LOG
+
+https://youtu.be/lGULtrZqk-c?si=Kn2zW9g6s_D2pIjA - ALI BOUALI
+https://youtu.be/VCIY9-ePqpE?si=yb2VKLdW-vB4urDy - JAVA EXPRESS
+
+TDD
+
+https://youtu.be/3HNBSuBQnxc?si=yftfdW18ligWpsJB - JAVA TECH SOLUTIONS
+https://youtu.be/Hh17JDpsKqc?si=Z59-Sn2ny9XzA5UQ - JAVA TECHIE
+https://youtu.be/XVFqOFKGeGM?si=bE693XyL7x4tUHO2 - CODESNIPPET
+https://youtu.be/Cb8yg8X5_Pw?si=PZ_pcN9zyw1GjOcC - TAMIL SKILLHUB
+https://www.youtube.com/live/MEFoGR07qgw?si=lN7daAXvkVCgPcNV - ASHOK IT
+
+SPRING DATA JPA
+
+https://youtu.be/ImBqsE2exGo?si=C3rV8N-NxxAnxLxk - TELUSKO
+https://youtu.be/XszpXoII9Sg?si=fxriip_21yuelSh_ - DAILY CODE BUFFER
+
+FILE HANDLING
+
+https://youtu.be/b35mlSPOlJg?si=4pxlehIIJv5WwEWx - KUNAL
+https://youtu.be/e_S2yJKpTaw?si=2VBiA6AxRapsD2rq - CONCEPT & CODING - BY SHRAYANSH
+
+DSA
+
+https://youtu.be/4_HOnhB64Dg?si=G8hLee6djfSXGBeP - TELUSKO
+https://youtu.be/xwI5OBEnsZU?si=OoToyHqLNBHga6kz - FREE CODE CAMP
+
+EXCEPTION HANDLING
+
+https://www.youtube.com/live/dvTZzJLR3jA?si=HmekMZKqiijnLnk9 - TELUSKO
+https://youtu.be/krOczq-1gSA?si=x_kp9tL7qXY1Zvh0 - LOGIC FIRST TAMIL
+
+JAVA INTERVIEW QUESTIONS
+
+https://youtu.be/FFfJeb8Ec6Y?si=74C3k5N3xO9x4wwl - JAVA TECHIE
+https://youtu.be/4Ib9amXl4gI?si=sl2FGLXyLJJwsPHi - INTELLIPAT
+https://youtu.be/yq-XFhUalx4?si=uF0SeKjYUMYKC4hX - JAVA GUIDES
+https://youtu.be/k7fNLXoVCYg?si=SlquVbXT1KLFqFUG - JAVA TECHIE (JAVA 8) 
+https://youtu.be/1Ps5F1PU72M?si=WreF2w7kYbVqVlWC - JAVA TECHIE (JAVA 8)
+https://youtu.be/GO67C7V-IbQ?si=xx0jUwRg8mgBAd5Y - JAVA TECHIE (COLLECTIONS)
+https://youtu.be/3hgYHXDVh-o?si=HHRSVfA2hJhebRrB - IN28MINUTES (COLLECTIONS)
+https://youtu.be/-nHaUl7koN4?si=IjoeapwOKvqxRJSt - IN28MINUTES (COLLECTIONS)
+https://youtu.be/oM1vCGYan34?si=AmeuvYvO4teVmfDe - IN28MINUTES (CORE JAVA)
+
+Spring boot
+
+https://youtu.be/O27OzPWME1Y?si=Cb6MD2qzjneojcoJ - JVL code
+https://youtu.be/-Fe0zk-F4OA?si=g7thoR2joWeJxI2m - Telusko
+https://youtu.be/7d0c_CaHgEc?si=CdH2D4LHKshPcl5a - CONQUER VICTORY
+
+Spring security and JWT
+
+https://youtu.be/N7peYEvFSaw?si=sWJzhOtHm4JloRZG - JVL CODE
+https://youtu.be/oeni_9g7too?si=N66qFQDfgeIf7p04 - TELUSKO
+
+JAVA JDBC
+
+https://youtu.be/-gVOTurhZP8?si=XoV_iFc8er5P14tN - CONQUER VICTORY
+https://youtu.be/cWNBchp_WCM?si=sTvKPFqFeFix_dci - LOGIC FIRST TAMIL
+
+SQL
+
+https://youtu.be/7S_tz1z_5bA?si=Zt4OosVDd2USVR41 - PROGRAMMING WITH MOSH
+https://youtu.be/-6KHvE78Fv0?si=plH-gSYkvZTPQESr - CODE.IO
+https://youtu.be/IzyebUSMVa0?si=7mUfmiifR8Qp5Dco - AI COACH JOHN
+
+SCRUM
+
+https://youtu.be/SyIN_YMfoQs?si=WJowVbXY_LBVNawV - SIMPLILEARN
+https://youtu.be/QvhPNI5WkD0?si=vO08h9oO46y64WBA - SIMPLILEARN
+https://youtu.be/VFQtSqChlsk?si=jH1cn9DqroWR6_AR - SIMPLILEARN
+
+
+
+
+
+
