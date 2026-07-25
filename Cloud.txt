@@ -1,0 +1,341 @@
+AutoScaling
+
+----------------Adds  or removes the Ec2 instances based on traffic 
+
+low traffic---------------2 servers 
+
+High Trsffic-------------------10 servers
+ 
+ 
+cLOUD WATCH 
+
+Monitors AWS resources 
+
+Example 
+
+Cpu utilization  
+
+Menory usage 
+
+Logs Alarms
+ 
+Api Gate way 
+
+used to expose RestAPIS'
+
+Example 
+
+CLient 
+
+API gateway 
+
+Springboot APplication
+ 
+Lambda------------------AWS Lambda 
+
+Runs the code Without manging the server 
+
+Example 
+
+Image processing 
+
+Scheduled jobs 
+
+Backend APi's
+ 
+ 
+Spring boot Deployment Flow on AWS 
+
+Developer 
+
+Github
+
+CI?cd pipeline 
+
+build ing the jar 
+
+docker image 
+
+Aws Ec2 
+
+Spring boot application
+
+Amazzon RDS
+ 
+ 
+Common AWS servcie for Microservcies
+ 
+EC2 ----------------------------run applications 
+
+ECS?AKS --------------------------run docker continers 
+
+API Gaterway -----------------------------api entry point 
+
+RDS --------------------------Relational database 
+
+S3------------------------File storage 
+
+IAM ---------------------Security and permission
+
+Cloud Watch ----------------------moniroing 
+
+ELB------------------------Load balcning 
+
+Auto Scaling ---------------------------Auomaatic scaling 
+
+Route 53 -------------------DNSmanagment 
+
+Secret maanger ----------------stor e paaswors in API 
+
+ 
+Typical sping boot ARCHITECTURE
+ 
+USERS 
+
+ROUTE 53 
+
+APPICATON LOAD BALANCE 
+
+EC2 INSTANCE 
+
+AMAZON RDS 
+
+AMAZON S3
+ 
+Advantages of AWS 
+
+Scalble infrastructure 
+
+High Avaliblity 
+
+Strong security freature 
+
+Global Presence 
+
+wide range of maanged service 
+
+Pay only for waht you use
+ 
+ 
+ 
+AWS ---------------------what is aws 
+
+what is Aws region and Avalblity zone 
+
+what is difference between EC2 and Lambda 
+
+s3 and EBS 
+
+what is IAM why it is important
+
+VPC 
+
+application load balanncer working 
+
+Auto scaling 
+
+purpose of cloud watch
+
+deploying A SPRING BOOT APPLICATION ON aws
+ 
+Apache -kafka 
+
+what is kafka -------------------distributed streaming platform used to excahnge the data between the applications 
+
+in real time 
+
+it is commonly used in Spring boot microservcies 
+
+for 
+
+Asynchronous communication 
+
+Event Driven architure 
+
+log processing 
+
+Real time analytivs 
+
+notification systems
+ 
+ 
+why do we need kafka
+
+without kafka (Synchronous communication)
+
+order service 
+
+Rest API 
+
+Payment service
+ 
+if the payment servcie is down ----------------orderservcie has to wait to get response
+ 
+ 
+With Kafka --------------------(asynchrounus communiction)
+
+order service 
+
+publish event 
+
+kafka -------------topic 
+
+payment service when the servcie is availble 
+
+----------------publishing the events and continues .
+ 
+Kafka Architecture 
+
+Producer 
+
+Kafka
+ 
+---------------------------------- consumer A consumer B
+ 
+ 
+Main Components of kafka 
+
+Producer 
+
+A producer sends message to Kafka
+ 
+Example 
+
+order created 
+
+orderservice acts as producer
+ 
+ 
+2. Topic 
+
+A topic is category where messages are stored 
+
+Example 
+
+orders 
+
+Payments 
+
+notifications
+
+When the order servcie creates on order 
+
+Topic= order
+ 
+3.Consumer
+
+A Consumer is the one who read the message from the topic
+ 
+Example
+
+Payment service ------------it reads the message from the orders topic
+ 
+ 
+Broker 
+
+A kafka broker  is A server that stores the messages
+ 
+broker 1
+
+broker 2 
+
+broker 3 
+
+broker 4 
+
+Togther they form kafka cluster
+ 
+ 
+Partion 
+
+A topic is divded into partitons for scalblity
+ 
+order topic
+
+Partion 0
+
+partion 1
+
+partion 2
+ 
+meassages in the same partion maintains the order
+ 
+offset --------- to maintain order of messages
+ 
+Each meassage gets a uniqur number within its partion 
+
+offset1
+
+offset2
+
+offset3
+ 
+ 
+consumers use offsets to know which meaasges have already been processed
+ 
+ 
+complete flow 
+
+Suppose a customer pleaces the order
+ 
+Step 1 
+
+client 
+
+create order
+ 
+ 
+Step 2 
+
+order service
+ 
+Saves the order in database
+ 
+Step3 
+
+Publish an event 
+
+order crearted
+ 
+ 
+step 4 
+
+Kafka topic --------------stores the event
+ 
+Step 5 
+
+Payment service servcie reads the event
+ 
+Step 6 
+
+payment process
+ 
+Step 7 
+
+Inventory servcie again reads the same event
+ 
+Step 8 
+
+Reduces stock
+ 
+Step 9 
+
+Notifications will be sent through an email or sms
+ 
+ 
+Complete architecture 
+
+order servcie 
+
+publish the event 
+
+orders topic 
+
+payment service inventory service and notiication servcice
+ 
+one event can be consumed by multiple inpdpendent servcies
+ 
+ 
+ 
+ 
+ 
